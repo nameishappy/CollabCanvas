@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 
 export const siteConfig: Metadata = {
-  title: "Miro Clone",
+  title: "Collab Canvas",
   description:
-    "Revolutionary Miro clone: Real-time collaboration, versatile canvas, rich media, secure.",
+    "Collab Canvas: Real-time collaboration, versatile canvas, rich media, secure.",
   keywords: [
     "reactjs",
     "nextjs",
     "vercel",
     "react",
-    "miro",
+    "collab",
     "board",
     "shadcn",
     "shadcn-ui",
@@ -40,11 +40,11 @@ export const siteConfig: Metadata = {
     "css",
   ] as Array<string>,
   authors: {
-    name: "Sanidhya Kumar Verma",
-    url: "https://github.com/sanidhyy",
+    name: "Happy kumar",
+    url: "https://github.com/nameishappy",
   },
 } as const;
 
 export const links = {
-  sourceCode: "https://github.com/sanidhyy/miro-clone",
+  sourceCode: "https://github.com/nameishappy/CollabCanvas",
 } as const;

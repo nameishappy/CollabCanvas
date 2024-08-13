@@ -20,12 +20,12 @@ export const OrgSidebar = () => {
   const favourites = searchParams.get("favourites");
 
   return (
-    <div className="hidden lg:flex flex-col space-y-6 w-[206px] pl-5 pt-5">
+    <div className="hidden lg:flex flex-col space-y-6 w-[240px] pl-5 pt-5">
       <Link href="/">
         <div className="flex items-center gap-x-2">
           <Image src="/logo.svg" alt="Miro Clone Logo" height={60} width={60} />
           <span className={cn("font-semibold text-2xl", font.className)}>
-            Miro
+            CollabCanvas
           </span>
         </div>
       </Link>

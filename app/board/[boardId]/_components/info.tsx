@@ -40,17 +40,17 @@ export const Info = ({ boardId }: InfoProps) => {
           <Link href="/">
             <Image
               src="/logo.svg"
-              alt="Miro Clone Logo"
+              alt="CollabCanvas Logo"
               height={40}
               width={40}
             />
             <span
               className={cn(
                 "font-semibold text-xl ml-2 text-black",
-                font.className,
+                font.className
               )}
             >
-              Miro
+              CollabCanvas
             </span>
           </Link>
         </Button>
